@@ -1,0 +1,170 @@
+{
+	"eslint.packageManager": "npm",
+	"eslint.run": "onType",
+	"prettier.disableLanguages": [
+		"js",
+		"vue"
+	],
+	"editor.formatOnSave": true,
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vb]": {},
+	"[sql]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur"
+	},
+	"editor.minimap.enabled": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.tabCompletion": "onlySnippets",
+	"editor.detectIndentation": false,
+	"markdownlint.config": {
+		"MD001": false,
+		"MD007": {
+			"indent": 4
+		},
+		"MD030": {
+			"ol_multi": 3,
+			"ol_single": 3,
+			"ul_multi": 3,
+			"ul_single": 3
+		},
+		"MD033": false,
+		"MD041": false
+	},
+	"eslint.validate": [
+		"vue",
+		"javascript",
+		"javascriptreact"
+	],
+	"eslint.options": {
+		"rules": {
+			"quotes": [
+				"warn",
+				"single",
+				{
+					"avoidEscape": true,
+					"allowTemplateLiterals": true
+				}
+			],
+			"strict": [
+				"error",
+				"global"
+			],
+			"eqeqeq": "warn",
+			"no-console": "warn",
+			"semi": [
+				"warn",
+				"always",
+				{
+					"omitLastInOneLineBlock": true
+				}
+			],
+			"no-template-curly-in-string": "warn",
+			"indent": [
+				"warn",
+				"tab",
+				{
+					"SwitchCase": 1,
+					"flatTernaryExpressions": true
+				}
+			],
+			"no-tabs": [
+				"warn",
+				{
+					"allowIndentationTabs": true
+				}
+			],
+			"no-unneeded-ternary": [
+				"warn"
+			]
+		}
+	},
+	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.commandPalette.preserveInput": true,
+	"workbench.list.openMode": "doubleClick",
+	"workbench.startupEditor": "none",
+	"workbench.tree.indent": 10,
+	"workbench.settings.editor": "json",
+	"workbench.settings.openDefaultSettings": true,
+	"workbench.settings.useSplitJSON": true,
+	"zenMode.restore": true,
+	"window.restoreWindows": "folders",
+	"window.zoomLevel": 1,
+	"debug.allowBreakpointsEverywhere": true,
+	"debug.inlineValues": true,
+	"debug.toolBarLocation": "docked",
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.fontFamily": "Consolas",
+	"editor.fontFamily": "Inconsolata, Consolas, 'Courier New', monospace",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.copyOnSelection": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"sqltools.flattenGroupsIfOne": true,
+	"mssql.format.alignColumnDefinitionsInColumns": true,
+	"mssql.format.keywordCasing": "uppercase",
+	"mssql.format.placeSelectStatementReferencesOnNewLine": true,
+	"mssql.maxRecentConnections": 0,
+	"mssql.messagesDefaultOpen": false,
+	"mssql.query.displayBitAsNumber": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"extensionName": ".min.css",
+			"format": "compressed",
+			"savePath": "/css"
+		}
+	],
+	"liveSassCompile.settings.showOutputWindow": false,
+	"liveSassCompile.settings.excludeList": [
+		"**/*",
+		"!/scss/**"
+	],
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.autoprefix": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"material-icon-theme.folders.color": "#26a69a",
+	"terminal.integrated.rendererType": "dom",
+	"vetur.format.options.tabSize": 4,
+	"vetur.format.options.useTabs": true,
+	"vetur.format.defaultFormatterOptions": {
+		"prettyhtml": {
+			"useTabs": true,
+			"tabWidth": 4,
+			"printWidth": 100, // No line exceeds 100 characters
+			"singleQuote": false // Prefer double quotes over single quotes
+		}
+	},
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"eslint.alwaysShowStatus": true,
+	"eslint.lintTask.enable": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "es5",
+	"prettier.useTabs": true,
+	"vetur.validation.template": false,
+	"prettier.endOfLine": "lf",
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"vetur.format.defaultFormatter.html": "prettier",
+}
