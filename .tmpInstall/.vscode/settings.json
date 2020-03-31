@@ -1,4 +1,6 @@
 {
+	"terminal.explorerKind": "external",
+	"terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash",
 	"eslint.packageManager": "npm",
 	"eslint.run": "onType",
 	"prettier.disableLanguages": [
