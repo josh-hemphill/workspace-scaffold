@@ -94,7 +94,8 @@
 			],
 			"no-unneeded-ternary": [
 				"warn"
-			]
+			],
+			"linebreak-style":["warn","unix"]
 		}
 	},
 	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
