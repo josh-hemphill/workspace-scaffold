@@ -3,7 +3,7 @@ npm i -D eslint prettier eslint-plugin-prettier eslint-config-standard \
 eslint-config-prettier eslint-plugin-promise eslint-plugin-node \
 eslint-plugin-standard eslint-plugin-jest
 
-source "./.tmpInstall/.lib.sh"
+source "./.installTmp/.lib.sh"
 TYPE=""
 
 browserDev="babel-eslint eslint-loader eslint-plugin-import eslint-plugin-vue"
