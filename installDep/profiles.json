@@ -1,0 +1,108 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+{
+	"$schema": "https://aka.ms/terminal-profiles-schema",
+	"defaultProfile": "{2c4de342-38b7-51cf-f940-2309a097f518}",
+	"profiles": {
+		"defaults": {
+			"acrylicOpacity": 0.75,
+			"closeOnExit": true,
+			"colorScheme": "Classic",
+			"cursorColor": "#008000",
+			"cursorShape": "bar",
+			"fontFace": "Consolas",
+			"fontSize": 16,
+			"historySize": 9001,
+			"padding": "15, 15, 15, 15",
+			"snapOnInput": true,
+			"useAcrylic": false
+		},
+		"list": [
+			{
+				"guid": "{2c4de342-38b7-51cf-f940-2309a097f518}",
+				"hidden": false,
+				"name": "Git Bash",
+				"icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+				"commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+				"startingDirectory": "%HOMEDRIVE%%HOMEPATH%"
+			},
+			{
+				"guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+				"hidden": false,
+				"name": "Ubuntu",
+				"source": "Windows.Terminal.Wsl"
+			},
+			{
+				"guid": "{2c4de342-38b9-51cf-b944-2309a097f518}",
+				"hidden": false,
+				"name": "Ubuntu WSL Env",
+				"source": "Windows.Terminal.Wsl",
+				"startingDirectory": "$HOME"
+			},
+			{
+				// Make changes here to the powershell.exe profile
+				"guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+				"name": "Windows PowerShell",
+				"commandline": "powershell.exe",
+				"hidden": false
+			},
+			{
+				// Make changes here to the cmd.exe profile
+				"guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+				"name": "cmd",
+				"commandline": "cmd.exe",
+				"hidden": false
+			},
+			{
+				"guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+				"hidden": false,
+				"name": "Azure Cloud Shell",
+				"source": "Windows.Terminal.Azure"
+			}
+		]
+	},
+	// Add custom color schemes to this array
+	"schemes": [
+		{
+			"background": "#000000",
+			"black": "#000000",
+			"blue": "#000080",
+			"brightBlack": "#808080",
+			"brightBlue": "#0000FF",
+			"brightCyan": "#00FFFF",
+			"brightGreen": "#00FF00",
+			"brightPurple": "#FF00FF",
+			"brightRed": "#FF0000",
+			"brightWhite": "#FFFFFF",
+			"brightYellow": "#FFFF00",
+			"cyan": "#008080",
+			"foreground": "#008000",
+			"green": "#008000",
+			"name": "Classic",
+			"purple": "#800080",
+			"red": "#800000",
+			"white": "#C0C0C0",
+			"yellow": "#808000"
+		}
+	],
+	// Add any keybinding overrides to this array.
+	// To unbind a default keybinding, set the command to "unbound"
+	"keybindings": [
+		{
+			"command": "closePane",
+			"keys": "ctrl+shift+w"
+		},
+		{
+			"command": "copy",
+			"keys": "ctrl+shift+c"
+		},
+		{
+			"command": "newTab",
+			"keys": "ctrl+shift+t"
+		},
+		{
+			"command": "paste",
+			"keys": "ctrl+shift+v"
+		}
+	]
+}

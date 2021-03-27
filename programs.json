@@ -1,0 +1,42 @@
+{
+	"desktop":{
+		"vscode":{
+			"choco":"vscode",
+			"snap": {
+				"classic":true,
+				"id":"code"
+			}
+		},
+		"postman":{
+			"choco":"postman",
+			"snap":"postman"
+		}
+	},
+	"tools":{
+		"git":{
+			"choco":"git",
+			"apt": "git",
+			"apk": "git",
+			"yum": "git",
+			"dnf": "git"
+		}
+	},
+	"languages":{
+		"nodejs": {
+			"choco":"nodejs",
+			"pkg": "nodejs",
+			"yum": "nodejs",
+			"bash": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash && command -v nvm && nvm node"
+		},
+		"rust":{
+			"choco":"rustup.install",
+			"bash": "curl https://sh.rustup.rs -sSf | sh"
+		},
+		"deno":{
+			"choco":"deno",
+			"snap":"deno",
+			"bash":"curl -fsSL https://deno.land/x/install/install.sh | sh",
+			"cargo":"deno"
+		}
+	}
+}
